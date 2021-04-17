@@ -1,114 +1,26 @@
 body
 {
-	padding-bottom: 50px;
+    color: #204848 !important;
+    background-color: var(--bs-dark) !important;
 }
 
-svg
+.main-container
 {
-	margin: 0px;
-	padding: 0px;
+    background-color: white !important;
 }
 
-#home-section
+.intro-section
 {
-    padding-top: 90px;
+    color: #B0B0B0 !important;
+    background-color: #101818 !important;
 }
 
-#cards-section
+.intro-title
 {
-	padding-top: 70px;
+    color: #0CA78C !important;
 }
 
-.jumbotron
+.my-span
 {
-	padding: 35px;
-	margin-bottom: 0px;
-	background-color: #DF5050;
-}
-
-.jumbotron h1
-{
-	color: #FFF8F8;
-}
-
-
-.jumbotron .lead
-{
-	font-size: 1.35rem;
-	color: #FFE0E0;
-}
-
-.navbar-nav
-{
-	margin-left:  100px;
-}
-
-
-.anchored-section
-{
-	margin-top: 70px;
-	margin-bottom: 70px;
-}
-
-.textual-area
-{
-	padding-left: 140px;
-	padding-right: 140px;
-}
-
-.text-title
-{
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-
-.blockquote
-{
-	margin-left: 20px;
-	margin-right: 20px;
-}
-
-.card-footer
-{
-	background-color: white;
-	border-color: white;
-}
-
-.carousel
-{
-	background-color: #101010;
-	padding-bottom: 2px;
-}
-
-
-.card-header
-{
-	background-color: #5C6268;
-}
-
-.card-title
-{
-	color: white;
-	font-weight: bold;
-	color: #F4FAFF;
-}
-
-.card-subtitle
-{
-	color: #D4DAE0;
-}
-
-.card-text
-{
-	color:#6C7278;
-}
-
-.card
-{
-	border-color: #8C9298;
-}
-
-.text-title
-{
-	color: #C73838;
+    color: #F73B27 !important;
 }
