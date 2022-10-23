@@ -1,14 +1,14 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="h-100">
     <!-- HEAD -->
     <head>
         <!-- Required meta tags -->
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         
-        <!-- REDIRECTION -->
+        <!-- REDIRECTION
         <meta http-equiv="refresh" 
-        content="0; url = https://github.com/pyrustic/pyrustic#readme" />
+        content="0; url = https://github.com/pyrustic/pyrustic#readme" />  -->
 
         <!-- TWITTER SOCIAL SHARING -->
         <meta name="twitter:card" content="summary_large_image"/>
@@ -27,26 +27,535 @@
         <meta property="og:image" content="https://raw.githubusercontent.com/pyrustic/misc/master/assets/tkf/cover.png" />
         <meta property="og:image:alt" content="Pyrustic Open Ecosystem" />
 
-        <!-- Bootstrap CSS -->
+        <!-- Bootstrap CSS (v5.2.2) -->
         <link href="css/bootstrap.min.css" rel="stylesheet"/>
         <!-- My style -->
-        <link rel="stylesheet" href="css/mystyle.css"/>
+        <link rel="stylesheet" href="css/my.style.css"/>
         <title>Pyrustic Open Ecosystem</title>
     </head>
 
     <!-- BODY -->
     
-    <body>
+    <body class="d-flex flex-column h-100">
 
-        <div>
-            <p>
-                If you are not automatically redirected to the GitHub Repository, please <a href="https://github.com/pyrustic/pyrustic#readme"> click this link</a>.
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
-            </p>
+            <div class="container-fluid">
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-center" id="navbarToggler">
+
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="https://pyrustic.github.io">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/pyrustic/shared">Shared</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/pyrustic/backstage">Backstage</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/pyrustic/hooking">Hooking</a>
+                        </li>
+                        
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/pyrustic/tkstyle">TkStyle</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/pyrustic/litemark">Litemark</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/pyrustic?tab=repositories">GitHub</a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+        <!-- TOP -->
+        <div class="container px-3 py-3">
+            <!-- INTRO -->
+            <div class="row justify-content-center g-4 mb-5">
+                <!-- Intro -->
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                    <!-- title -->
+                    <h1 class="display-6 pb-3 warm-title">Pyrustic Open Ecosystem</h2>
+                    <!-- text -->
+                    <p class="lead">
+                        This is a collection of lightweight <a href="https://www.python.org/">Python</a> projects that share the same policy.
+                    </p>
+                    <p class="lead">
+                        The goal is to build and maintain a reliable, consistent, easy-to-use and relevant Python codebase for tech enthusiasts.
+                    </p>
+                    <p class="lead">
+                        These <a href="https://github.com/pyrustic?tab=repositories">projects</a> cover various topics: automation, data persistence and exchange, GUI, themes, widgets, multithreading, markup, utilities, project management, et cetera.
+                    </p>
+                </div>
+                <!-- Cover -->
+                <div class="text-center col-12 col-sm-12 col-md-12 col-lg-6">
+                    <!-- image -->
+                    <img class="img-fluid rounded text-center" alt="Diogenes" src="https://raw.githubusercontent.com/pyrustic/misc/master/media/diogenes.jpg">
+                    <!-- caption -->
+                    <p class="text-center">
+                        <a href="https://en.wikipedia.org/wiki/Diogenes">Diogenes</a> by <a href="https://en.wikipedia.org/wiki/en:Jean-L%C3%A9on_G%C3%A9r%C3%B4me" class="extiw" title="w:en:Jean-Léon Gérôme">Jean-Léon Gérôme</a> - <a href="https://en.wikipedia.org/wiki/en:Walters_Art_Museum" class="extiw" title="w:en:Walters Art Museum">Walters Art Museum</a>: <a href="https://thewalters.org/" rel="nofollow"></a> <a rel="nofollow" class="external text" href="https://thewalters.org/">Home page</a>&nbsp;<a href="https://art.thewalters.org/detail/31957" rel="nofollow"></a> <a rel="nofollow" class="external text" href="https://art.thewalters.org/detail/31957">Info about artwork</a>, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=323523">Link</a>
+                    </p>
+                </div>
+            </div>
+            
+            <!-- PHILOSOPHY -->
+            <div class="row justify-content-center my-5">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                    <h2 class="display-6 text-center">Diogenean philosophy</h2>
+                    <figure>
+                        <blockquote class="blockquote">
+                            <p class="lead my-3">He owned a cup which served also has a bowl for food but threw it away when he saw a boy drinking water from his hands and realized one did not even need a cup to sustain oneself.</p>
+                        </blockquote>
+                        <figcaption class="blockquote-footer">
+                            Mark, J. J. (2014, August 02). <a href="https://www.worldhistory.org/Diogenes_of_Sinope/">Diogenes of Sinope</a>. <cite title="Source Title">World History Encyclopedia.</cite> Retrieved from https://www.worldhistory.org/Diogenes_of_Sinope/
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+            
+            
+            <!-- BACKSTORY -->
+            <div class="row justify-content-center my-5">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-7">
+                    <h1 class="display-6 text-center">Short backstory</h2>
+                    <p class="lead my-3">
+                        I'm Alex, a tech enthusiast deeply attracted to the bold intellectual enterprise of building <a href="https://en.wikipedia.org/wiki/Artificial_general_intelligence">AGI</a>.
+                    </p>
+                    <p class="lead">
+                       The same way we humans needed to <a href="https://australian.museum/learn/science/human-evolution/complex-technology/">build tools</a> to tame our wild environment, the same way a tech enthusiast needs tools to tame a great intellectual challenge.
+                    </p>
+                    <p class="lead">
+                        At first I built a Table widget for <a href="https://en.wikipedia.org/wiki/Tkinter">Tkinter</a> (<a href="https://en.wikipedia.org/wiki/Tk_(software)">Tcl/Tk</a> binding for Python) then added more stuff to create a GUI framework that I named Pyrustic.
+                    </p>
+                    <p class="lead">
+                        Now, thanks to <a href="https://en.wikipedia.org/wiki/Serendipity#Applications">serendipity</a>, Pyrustic is no longer a framework as it has evolved into an ecosystem of open-source Python projects.
+                    </p>
+                </div>
+            </div>
+        </div>
+                
+
+
+        <!-- PROJECTS -->
+        <div id="projects-div">
+            
+            <!-- PROJECT 1 - SHARED -->
+            <div class="container px-3 pb-5">
+                
+                <!-- HEADING -->
+                <div class="row">
+
+                    <!-- TITLE -->
+                    <h1 class="display-6 text-center">
+                        <span class="warm-title">Shared :</span> Triptych for data exchange and persistence
+                    </h1>
+
+                    <!-- TAGS -->
+                    <p class="text-center py-3">
+                        <span class="badge rounded-pill my-pill-warm">library</span>
+                        <span class="badge rounded-pill my-pill-warm">cli</span>
+                        <span class="badge rounded-pill my-pill">json</span>
+                        <span class="badge rounded-pill my-pill">database</span>
+                        <span class="badge rounded-pill my-pill">sqlite</span>
+                        <span class="badge rounded-pill my-pill">jesth</span>
+                        <span class="badge rounded-pill my-pill">configuration</span>
+                        <span class="badge rounded-pill my-pill">binary</span>
+                        <span class="badge rounded-pill my-pill">collections</span>
+                    </p>
+
+                </div>
+                
+                <!-- IMAGE AND DESCRIPTION -->
+                <div class="row project-body justify-content-center g-4 py-2">
+                    
+                    <!-- IMAGE -->
+                    <div class="project-image-div text-center col-12 col-sm-12 col-md-12 col-lg-6">
+                        
+                        <!-- image -->
+                        <img class="img-fluid rounded text-center" alt="Diogenes"
+                        src="https://raw.githubusercontent.com/pyrustic/misc/master/assets/shared/cover.png">
+                        
+                        <!-- caption -->
+                        <p class="text-center">
+                        </p>
+                    </div>
+                    
+                    <!-- DESCRIPTION -->
+                    <div class="project-description-div col-12 col-sm-12 col-md-12 col-lg-6">
+                        
+                        <!-- text -->
+                        <p class="lead">
+                            Shared is a Python package created to be the programmer's companion when it comes to storing application data, managing configuration files, caching data, and exchanging data with other programs.
+                        </p>
+                        <p class="lead">
+                            Although a lightweight package, Shared smoothly handles collections (dict, list, set), binary data, and SQL queries.
+                        </p>
+                        <p class="lead">
+                            Shared's intuitive application programming interface is designed as a triptych. Thus, three classes with similar interfaces are created to cover the needs of data exchange and persistence: Document, Dossier, and Database.
+                        </p>
+                        
+                        <!-- button -->
+                        <p class="container text-center py-2">
+                            <a href="https://github.com/pyrustic/shared#readme" class="btn btn-success">
+                                Discover the project
+                            </a>
+                        </p>
+                    
+                    </div>
+                
+                </div>
+            </div>
+   
+   
+   
+            <!-- PROJECT 2 - BACKSTAGE -->
+            <div class="container px-3 pb-5">
+                
+                <!-- HEADING -->
+                <div class="row">
+
+                    <!-- TITLE -->
+                    <h1 class="display-6 text-center">
+                        <span class="warm-title">Backstage :</span> Three-speed scripting language and task automation tool 
+                    </h1>
+
+                    <!-- TAGS -->
+                    <p class="text-center py-3">
+                        <span class="badge rounded-pill my-pill-warm">tool</span>
+                        <span class="badge rounded-pill my-pill-warm">language</span>
+                        <span class="badge rounded-pill my-pill-warm">cli</span>
+                        <span class="badge rounded-pill my-pill-warm">library</span>
+                        <span class="badge rounded-pill my-pill">automation</span>
+                        <span class="badge rounded-pill my-pill">scripting</span>
+                        <span class="badge rounded-pill my-pill">task-runner</span>
+                        <span class="badge rounded-pill my-pill">productivity</span>
+                    </p>
+
+                </div>
+                
+                <!-- IMAGE AND DESCRIPTION -->
+                <div class="row project-body justify-content-center g-4 py-2">
+                    
+                    <!-- IMAGE -->
+                    <div class="project-image-div text-center col-12 col-sm-12 col-md-12 col-lg-6">
+                        
+                        <!-- image -->
+                        <img class="img-fluid rounded text-center" alt="Diogenes"
+                        src="https://raw.githubusercontent.com/pyrustic/misc/master/assets/backstage/cover.jpg">
+                        
+                        <!-- caption -->
+                        <p class="text-center">
+                            © Jorge Royan&nbsp;/&nbsp;<a rel="nofollow" class="external free" href="http://www.royan.com.ar">http://www.royan.com.ar</a>
+                        </p>
+                    </div>
+                    
+                    <!-- DESCRIPTION -->
+                    <div class="project-description-div col-12 col-sm-12 col-md-12 col-lg-6">
+                        
+                        <!-- text -->
+                        <p class="lead">
+                            Backstage is a cross-platform automation tool that looks for a <mark>backstage.tasks</mark> file in the current working directory to run a specific task defined in that file on demand.
+                        </p>
+                        <p class="lead">
+                            A task can be a sequence or pipeline of processes to be spawned, instructions for performing file and directory manipulation, or something more sophisticated.
+                        </p>
+                        <p class="lead">
+                            Backstage exposes a command line interface that allows the user to discover available tasks, run a task with arguments, read a task documentation, use a glob-like syntax to search for a task by its name or by a keyword that is part of the documentation of the task, et cetera.
+                        </p>
+                        
+                        <!-- button -->
+                        <p class="container text-center py-2">
+                            <a href="https://github.com/pyrustic/backstage#readme" class="btn btn-success">
+                                Discover the project
+                            </a>
+                        </p>
+                    
+                    </div>
+                
+                </div>
+            </div>
+   
+   
+   
+            <!-- PROJECT 3 - HOOKING -->
+            <div class="container px-3 pb-5">
+                
+                <!-- HEADING -->
+                <div class="row">
+
+                    <!-- TITLE -->
+                    <h1 class="display-6 text-center">
+                        <span class="warm-title">Hooking :</span> Generic hooking mechanism for Python
+                    </h1>
+
+                    <!-- TAGS -->
+                    <p class="text-center py-3">
+                        <span class="badge rounded-pill my-pill-warm">library</span>
+                        <span class="badge rounded-pill my-pill">hooks</span>
+                        <span class="badge rounded-pill my-pill">decorator</span>
+                        <span class="badge rounded-pill my-pill">tags</span>
+                        <span class="badge rounded-pill my-pill">bind</span>
+                    </p>
+
+                </div>
+                
+                <!-- IMAGE AND DESCRIPTION -->
+                <div class="row project-body justify-content-center g-4 py-2">
+                    
+                    <!-- IMAGE -->
+                    <div class="project-image-div text-center col-12 col-sm-12 col-md-12 col-lg-6">
+                        
+                        <!-- image -->
+                        <img class="img-fluid rounded text-center" alt="Diogenes"
+                        src="https://raw.githubusercontent.com/pyrustic/misc/master/assets/hooking/hooks.jpg">
+                        
+                        <!-- caption -->
+                        <p class="text-center">
+                            <a href="https://commons.wikimedia.org/wiki/File:%D0%9A%D0%B0%D0%BD%D0%B0%D1%82%D0%BD%D1%8B%D0%B9_%D1%81%D1%82%D1%80%D0%BE%D0%BF%D1%8B.jpg">HardMediaGroup</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons
+                        </p>
+                    </div>
+                    
+                    <!-- DESCRIPTION -->
+                    <div class="project-description-div col-12 col-sm-12 col-md-12 col-lg-6">
+                        
+                        <!-- text -->
+                        <p class="lead">
+                            This project implements an intuitive and minimalist hooking mechanism. It exposes a decorator to tag methods and functions (targets), and so when they are called, user-defined hooks will be executed upstream or downstream.
+                        </p>
+                        <p class="lead">
+                            Arguments to targets are passed to hooks which can modify them or replace the targets themselves with an arbitrary callable or None. Hooks are not directly tied to targets but to tags. Thus, hooks are loosely coupled to targets and dynamically bound to tags.
+                        </p>
+                        <p class="lead">
+                            This library allows the programmer to augment a function or method. It is therefore the perfect solution to create a plugin mechanism for a project. It can also be used for debugging, benchmarking or event-driven programming, et cetera.
+                        </p>
+                        
+                        <!-- button -->
+                        <p class="container text-center py-2">
+                            <a href="https://github.com/pyrustic/hooking#readme" class="btn btn-success">
+                                Discover the project
+                            </a>
+                        </p>
+                    
+                    </div>
+                
+                </div>
+            </div>
+   
+   
+   
+            <!-- PROJECT 4 - TKSTYLE -->
+            <div class="container px-3 pb-5">
+                
+                <!-- HEADING -->
+                <div class="row">
+
+                    <!-- TITLE -->
+                    <h1 class="display-6 text-center">
+                        <span class="warm-title">TkStyle :</span> Create styles and themes for your Python desktop applications 
+                    </h1>
+
+                    <!-- TAGS -->
+                    <p class="text-center py-3">
+                        <span class="badge rounded-pill my-pill-warm">library</span>
+                        <span class="badge rounded-pill my-pill-warm">theme</span>
+                        <span class="badge rounded-pill my-pill-warm">style</span>
+                        <span class="badge rounded-pill my-pill">gui</span>
+                        <span class="badge rounded-pill my-pill">beautiful</span>
+                        <span class="badge rounded-pill my-pill">desktop</span>
+                        <span class="badge rounded-pill my-pill">interface</span>
+                        <span class="badge rounded-pill my-pill">tkinter</span>
+                    </p>
+
+                </div>
+                
+                <!-- IMAGE AND DESCRIPTION -->
+                <div class="row project-body justify-content-center g-4 py-2">
+                    
+                    <!-- IMAGE -->
+                    <div class="project-image-div text-center col-12 col-sm-12 col-md-12 col-lg-6">
+                        
+                        <!-- image -->
+                        <img class="img-fluid rounded text-center" alt="Diogenes"
+                        src="https://raw.githubusercontent.com/pyrustic/misc/master/media/cyberpunk-cover.png">
+                        
+                        <!-- caption -->
+                        <p class="text-center">
+                            <a href="https://github.com/pyrustic/cyberpunk-theme">Cyberpunk-Theme</a> built with TkStyle
+                        </p>
+                    </div>
+                    
+                    <!-- DESCRIPTION -->
+                    <div class="project-description-div col-12 col-sm-12 col-md-12 col-lg-6">
+                        
+                        <!-- text -->
+                        <p class="lead">
+                            TkStyle is a styling library for <a href="https://en.wikipedia.org/wiki/Tkinter">Tkinter</a> that takes advantage of the autocomplete feature of IDEs so that you hardly need any prior Tkinter styling knowledge.
+                        </p>
+                        <p class="lead">
+                            Each Tkinter widget has a set of options that allow you to define its look. For example, the <mark>tkinter.Button</mark> widget has the <mark>background</mark> and <mark>foreground</mark> options to change the background color and the text color on the button respectively.
+                        </p>
+                        <p class="lead">
+                            TkStyle reproduces for each widget a class which bears the name of the widget and which has attributes representing the options to modify the appearance of the widget.
+                        </p>
+                        
+                        <!-- button -->
+                        <p class="container text-center py-2">
+                            <a href="https://github.com/pyrustic/tkstyle#readme" class="btn btn-success">
+                                Discover the project
+                            </a>
+                        </p>
+                    
+                    </div>
+                
+                </div>
+            </div>
+   
+
+            <!-- PROJECT 5 - LITEMARK -->
+            <div class="container px-3 pb-5">
+                
+                <!-- HEADING -->
+                <div class="row">
+
+                    <!-- TITLE -->
+                    <h1 class="display-6 text-center">
+                        <span class="warm-title">Litemark :</span> Lightweight Markdown dialect for Python desktop apps
+                    </h1>
+
+                    <!-- TAGS -->
+                    <p class="text-center py-3">
+                        <span class="badge rounded-pill my-pill-warm">library</span>
+                        <span class="badge rounded-pill my-pill">markdown</span>
+                        <span class="badge rounded-pill my-pill">markup</span>
+                        <span class="badge rounded-pill my-pill">tkinter</span>
+                        <span class="badge rounded-pill my-pill">gui</span>
+                    </p>
+
+                </div>
+                
+                <!-- IMAGE AND DESCRIPTION -->
+                <div class="row project-body justify-content-center g-4 py-2">
+                    
+                    <!-- IMAGE -->
+                    <div class="project-image-div text-center col-12 col-sm-12 col-md-12 col-lg-6">
+                        
+                        <!-- image -->
+                        <img class="img-fluid rounded text-center" alt="Diogenes"
+                        src="https://raw.githubusercontent.com/pyrustic/misc/master/media/litemark-rendered.png">
+                        
+                        <!-- caption -->
+                        <p class="text-center">
+                             Litemark demo rendered in the Litemark Viewer 
+                        </p>
+                    </div>
+                    
+                    <!-- DESCRIPTION -->
+                    <div class="project-description-div col-12 col-sm-12 col-md-12 col-lg-6">
+                        
+                        <!-- text -->
+                        <p class="lead">
+                            Litemark is both a lightweight Markdown dialect and a viewer that can be embedded in an app built with <mark>Tkinter</mark>.
+                        </p>
+                        <p class="lead">
+                            This project will soon be deprecated as a new project under development will replace it.
+                        </p>
+                        
+                        <!-- button -->
+                        <p class="container text-center py-2">
+                            <a href="https://github.com/pyrustic/litemark#readme" class="btn btn-success">
+                                Discover the project
+                            </a>
+                        </p>
+                    
+                    </div>
+                
+                </div>
+            </div>
+   
+
+
+   
 
         </div>
 
+        
+        <!-- CONTRIBUTING -->
+        <div class="container justify-content-center">
+            <div class="row justify-content-center my-3">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-7">
+                    <p class="text-center">
+                        Check out the full list of projects on <a href="https://github.com/pyrustic?tab=repositories">GitHub</a>.
+                    </p>
+                </div>
+            </div>
+        
+            
+            <div class="row justify-content-center my-5">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-7">
+                    <h1 class="display-6 text-center">Contributing</h2>
+                    <p class="lead my-3">
+                        If you like the ecosystem or any of the projects that are part of it, feel free to spread the word. Your feedback, bug reports and criticism are welcome, just email me or open an issue in the appropriate repository.
+                    </p>
+                    <p class="lead">
+                       If you have any feature ideas or modification suggestions, email me or open an issue and try to convince me.
+                    </p>
+                    <p class="lead">
+                        Email me if you would like me to feature on this page an interesting open source project that uses directly or indirectly a package from the Pyrustic ecosystem.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+        <footer class="footer mt-auto p-2 bg-light">
+            <div class="d-flex justify-content-between">
+                <!-- Back to top -->
+                <div>
+                    <a href="#">
+                        <img src="img/top.svg" alt="Back to top" width="30" height="30">
+                    </a>
+                </div>
+                <!-- Social -->
+                <div>
+                    <!-- Twitter -->
+                    <a class="mx-1" href="https://twitter.com/intent/tweet?url=https://pyrustic.github.io"><img src="img/twitter.svg" alt="Share to Twitter" width="30" height="30"></a>
+                    <!-- Facebook -->
+                    <a class="mx-1" href="https://www.facebook.com/sharer.php?href=https://pyrustic.github.io&display=popup"><img src="img/facebook.svg" alt="Share to Facebook" width="30" height="30"></a>
+                    <!-- Reddit -->
+                    <a class="mx-1" href="http://www.reddit.com/submit?url=https://pyrustic.github.io&title=Open%20ecosystem%20to%20build%20and%20distribute%20Python%20desktop%20applications"><img src="img/reddit.svg" alt="Share to Reddit" width="30" height="30"></a>
+                    <!-- LinkedIn -->
+                    <a class="mx-1" href="https://www.linkedin.com/shareArticle?mini=true&url=https://pyrustic.github.io&title=The%20Pyrustic%20Open%20Ecosystem&summary=Open%20ecosystem%20to%20build%20and%20distribute%20Python%20desktop%20applications"><img src="img/linkedin.svg" alt="Share to LinkedIn" width="30" height="30"></a>
+                    <!-- Discord -->
+                    <a class="mx-1" href=""><img src="img/discord.svg" alt="Open Discord" width="30" height="30"></a>
+                </div>
+            </div>
+        </footer>
 
+        <!-- Bootstrap Bundle with Popper (v5.2.2) -->
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <!-- my.script.js -->
+        <script src="js/my.script.js"></script>
     </body>
 
 </html>
